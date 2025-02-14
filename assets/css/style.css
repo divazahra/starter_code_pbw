@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  /* background-color: black; */
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.btn-tambah {
+  background-color: #4CAF50; /* Warna hijau */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-tambah:hover {
+  background-color: #45a049; /* Warna hijau lebih gelap saat hover */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  background-color: white;
+  margin: 15px;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.product h3 {
+  color: #333;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product p {
+  color: #777;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.product .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
+
+.product .button {
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.product .button:hover {
+  background-color: #d35400;
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-container textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #d35400;
+}
+
+.form-container .form-group {
+  margin-bottom: 20px;
+}
