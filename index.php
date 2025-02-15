@@ -25,7 +25,15 @@ $result = mysqli_query($conn, $query);
   </header>
 
   <a href="form_input.php">
-    <button class="btn-tambah">Tambah Data</button>
+    <button class="btn-tambah">Tambah Data Produk</button>
+  </a>
+
+  <a href="form_edit.php">
+    <button class="btn-edit">Edit Data Produk</button>
+  </a>
+
+  <a href="form_hapus.php">
+    <button class="btn-hapus">Hapus Data Produk</button>
   </a>
 
   <div class="container">

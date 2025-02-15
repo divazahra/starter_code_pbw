@@ -29,8 +29,40 @@ header h1 {
   text-decoration: none;
 }
 
+.btn-edit {
+  background-color: #d8d530; /* Warna kuning */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-hapus {
+  background-color: #df2f2f; /* Warna merah */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
 .btn-tambah:hover {
   background-color: #45a049; /* Warna hijau lebih gelap saat hover */
+}
+
+.btn-edit:hover {
+  background-color: #8b7b36; /* Warna kuning lebih gelap saat hover */
+}
+
+.btn-hapus:hover {
+  background-color: #994949; /* Warna merah lebih gelap saat hover */
 }
 
 .container {
